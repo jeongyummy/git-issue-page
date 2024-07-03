@@ -1,0 +1,21 @@
+.listWrapper {
+    margin: 0;
+    padding: 0;
+
+    .listContainer {
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        border-bottom: 1px solid darkgray;
+
+        .titleArea {
+            height: 100px;
+
+            h1 {
+                font-size: 50px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}
