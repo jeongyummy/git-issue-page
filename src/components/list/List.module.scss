@@ -6,15 +6,27 @@
         width: 1200px;
         height: auto;
         margin: 0 auto;
-        border-bottom: 1px solid darkgray;
 
         .titleArea {
             height: 100px;
+            border-bottom: 1px solid darkgray;
 
             h1 {
                 font-size: 50px;
                 font-weight: bold;
                 text-align: center;
+            }
+        }
+
+        .listArea {
+            width: 1000px;
+            height: 100px;
+            margin: 0 auto;
+            border-bottom: 1px solid black;
+
+            .listItem span {
+                font-size: 10px;
+                color: black;
             }
         }
     }
